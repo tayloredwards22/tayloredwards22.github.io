@@ -1,0 +1,20 @@
+/*
+Honey Yellow: F6AE2D
+Granny Smith Apple: B3D89C
+Brunswick Green: 29524A
+Deep Space Sparkle: 476A6F
+Burnt Orange: BC5D2E
+font-family: 'Averia Serif Libre', cursive;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Scope One', serif;
+*/
+
+body{
+    background: #476A6F;
+color: #BC5D2E;
+font-family: 'Scope One', serif;
+}
+
+h1{
+    font-family: 'Nunito Sans', sans-serif;
+}
