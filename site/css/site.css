@@ -20,6 +20,17 @@ h1{
     color: #29524A;
 }
 
+.about img {
+    box-shadow: 2em 2em white;
+    width: 400px;
+    height: 500px;
+}
+
+.clips img {
+    width: 500px;
+    height: 500px;
+}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
