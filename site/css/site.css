@@ -10,7 +10,7 @@ font-family: 'Scope One', serif;
 */
 
 body{
-    background: beige;
+    background: #29524A;
 color: #BC5D2E;
 font-family: 'Scope One', serif;
 }
@@ -27,8 +27,8 @@ h1{
 }
 
 .clips img {
-    width: 500px;
-    height: 500px;
+max-height: 400px;
+    margin: 0 0 1em 0;
 }
 
 main {
@@ -37,6 +37,11 @@ main {
 
 * {
     box-sizing: border-box;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
   }
   
   /* Style inputs */
