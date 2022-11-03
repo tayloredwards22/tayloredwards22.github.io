@@ -1,0 +1,97 @@
+
+.nav{
+    font-family: 'Poppins', sans-serif;
+    margin: 25px 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+body {
+    font-family: 'Literata', serif;
+    background-color: #F4F5F8;
+    color: #152128;
+    font-size: 15px;
+}
+
+main {
+    margin: 3em 0 0 0;
+}
+
+.header {
+    font-family: 'Work Sans', sans-serif;
+    text-align: justify;
+}
+
+.header h1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container-fluid {
+    max-width: 550px;
+}
+
+h1 {
+    padding-bottom: 20px;
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#bigtext {
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 20px; 
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 15.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.graphic-a {
+    background-color: #EAEAEA;
+    margin: 20px 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.graphic-b {
+    margin: 20px 10px;
+    padding: 20px;
+    border-bottom: 4px dotted #9DB4AB;
+    background-color: #EAEAEA;
+}
+
+footer {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 200;
+    font-family: 'Work Sans' , sans-serif;
+    font-size: 15px;
+    color: gray; 
+}
+a {
+    color:black;
+}
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
