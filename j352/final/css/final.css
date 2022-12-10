@@ -6,23 +6,46 @@ colors: #FEDC3D (Butter), #000000 (Black), #01ABAA (Azure), #FEA680 (Peach)
 
 p {
   font-family: 'Lato', sans-serif;
+  color:#000000
 }
+
 
 h1 {
   font-family:'Playfair Display', serif ;
+  color: #000000
+}
+
+h3{
+  font-size: 20px;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%
+}
+
+.container-intro {
+    position: relative;
+    text-align: center;
+    color: #f2f2f2;
+    font-family:'Playfair Display', serif ;
+    font-size: small;
+    align-items: center;
+  justify-content: center;
+  padding-left: 20px;
 }
 
 .container {
-    position: relative;
-    text-align: center;
-    color: #000000;
-    font-family:'Playfair Display', serif ;
+  position: relative;
+  text-align: center;
+  color: #000000;
+  font-family:'Playfair Display', serif ;
 }
 
 .title {
-font-size: 150px;
+font-size: 21px;
 font-family: 'Playfair Display', serif;
-border-color: #f2f2f2;
+border-color: #000000;
 }
 
 main {
@@ -39,16 +62,18 @@ main {
 
 body {
   font-family: 'Lato', sans-serif;
-    background-color: #FEDC3D;
-    color: #000000;
+    background-color: #000000;
+    color:#f2f2f2;
 }
 
 .container-fluid {
+  align-items: center;
+  justify-content: center;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
-    max-width: 550px;
     text-align: center;
+    max-width: 550px;
   }
 
   .graphic-1 {
@@ -56,7 +81,7 @@ body {
     margin: 20px 10px;
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .graphic-2 {
@@ -64,7 +89,7 @@ body {
   margin: 20px 10px;
   padding-top: 20px;
   padding-bottom: 20px;
-  text-align: right;
+  text-align: center;
 }
 
 .graphic-3 {
@@ -72,11 +97,11 @@ body {
   margin: 20px 10px;
   padding-top: 20px;
   padding-bottom: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .text-a {
-  text-align:right;
+  padding-left: 20px;
 }
 
   @media screen and (max-width: 600px) {
